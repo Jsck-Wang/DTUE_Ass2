@@ -21,22 +21,22 @@ public class GameInput : MonoBehaviour
         Vector2 inputVector = new Vector2(0, 0);
        
 
-        if (Input.GetKey(KeyCode.T))
+        if (Input.GetKey(KeyCode.W))
         {
             inputVector.y = +1;
         }
 
-        if (Input.GetKey(KeyCode.G))
+        if (Input.GetKey(KeyCode.S))
         {
             inputVector.y = -1;
         }
 
-        if (Input.GetKey(KeyCode.F))
+        if (Input.GetKey(KeyCode.A))
         {
             inputVector.x = -1;
         }
 
-        if (Input.GetKey(KeyCode.H))
+        if (Input.GetKey(KeyCode.D))
         {
             inputVector.x = +1;
         }
